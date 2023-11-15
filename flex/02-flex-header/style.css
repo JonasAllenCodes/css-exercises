@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -12,18 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-}
-
-.left-links {
-  margin-right: auto;
-}
-
-.right-links {
-  margin-left: auto;
-}
-
-.left-links ul {
-  margin-left: auto;      
 }
 
 ul {
