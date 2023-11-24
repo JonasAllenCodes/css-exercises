@@ -71,7 +71,9 @@ a   {
 }
 
 .content  {
+  flex: 1 0 auto;
   display: flex;
+  align-items: stretch;
 }
 
 .cards  {
@@ -87,6 +89,7 @@ a   {
 }
 
 .footer {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
